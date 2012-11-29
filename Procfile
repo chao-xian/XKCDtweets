@@ -1,1 +1,1 @@
-web: bundle exec ruby xkcd.rb  -p $PORT
+web: bundle exec ruby xkcdapp.rb  -p $PORT
