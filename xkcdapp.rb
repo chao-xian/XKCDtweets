@@ -13,7 +13,7 @@ class XkcdApp < Sinatra::Base
 
     scheduler = Rufus::Scheduler.start_new
 
-    scheduler.every '1m' do
+    scheduler.every '12h' do
         xkcd_tweets.tweet_latest
     end
 
