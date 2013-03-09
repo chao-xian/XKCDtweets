@@ -7,6 +7,7 @@ class XkcdApp < Sinatra::Base
 
     xkcd_tweets = XkcdTweet.new
 
+    # Run manually
     get '/' do
         xkcd_tweets.tweet_latest
     end
